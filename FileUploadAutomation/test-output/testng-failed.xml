@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="test.LoginPageTest">
+        <methods>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- test.LoginPageTest -->
+      <class name="test.RepositoryPageTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="clickCommit"/>
+          <include name="fileUpload"/>
+        </methods>
+      </class> <!-- test.RepositoryPageTest -->
+      <class name="test.GitHomePageTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- test.GitHomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
